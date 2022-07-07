@@ -8,6 +8,11 @@ class MyHomePage extends StatelessWidget {
 
       appBar: AppBar(
         title: Text('Welcome'),
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: () {},
+
+        ),
       ),
 
       body: Center(
